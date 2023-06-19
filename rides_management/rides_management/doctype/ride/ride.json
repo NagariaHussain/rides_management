@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "vehicle",
+  "ride_booking",
   "column_break_ppks",
   "driver",
   "amended_from",
@@ -44,7 +45,8 @@
    "fieldname": "driver",
    "fieldtype": "Link",
    "label": "Driver",
-   "options": "Driver"
+   "options": "Driver",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_qpai",
@@ -90,12 +92,19 @@
    "hidden": 1,
    "label": "Currency",
    "options": "USD\nINR"
+  },
+  {
+   "fieldname": "ride_booking",
+   "fieldtype": "Link",
+   "label": "Ride Booking",
+   "options": "Ride Booking",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-15 17:15:00.522607",
+ "modified": "2023-06-19 15:07:45.516439",
  "modified_by": "Administrator",
  "module": "Rides Management",
  "name": "Ride",

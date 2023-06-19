@@ -7,13 +7,15 @@ from frappe.model.document import Document
 
 class Ride(Document):
 	def before_save(self):
+		if not self.rate_per_hour:
+			self.rate_per_hour = 0.0
+
 		cost_breakup = self.cost_breakup
 
 		total_hours = 0
 		for item in cost_breakup:
 			total_hours += item.hours
-		
+
 		self.total_hours = total_hours
 
-		self.total_amount = self.total_hours * self.rate_per_hours
-
+		self.total_amount = self.total_hours * self.rate_per_hour

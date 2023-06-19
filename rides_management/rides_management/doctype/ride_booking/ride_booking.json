@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2023-06-17 15:17:30.497610",
  "default_view": "List",
@@ -68,7 +69,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-17 15:18:53.543953",
+ "modified": "2023-06-19 16:43:05.085776",
  "modified_by": "Administrator",
  "module": "Rides Management",
  "name": "Ride Booking",
@@ -83,6 +84,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fleet Manager",
    "share": 1,
    "write": 1
   }

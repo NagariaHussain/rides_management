@@ -47,7 +47,8 @@
   {
    "fieldname": "insurance_document",
    "fieldtype": "Attach",
-   "label": "Insurance Document"
+   "label": "Insurance Document",
+   "permlevel": 1
   },
   {
    "fieldname": "date_of_insurance_expiry",
@@ -95,7 +96,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-06-17 15:03:56.847529",
+ "modified": "2023-06-19 16:58:26.546980",
  "modified_by": "Administrator",
  "module": "Rides Management",
  "name": "Vehicle",
@@ -106,10 +107,55 @@
    "delete": 1,
    "email": 1,
    "export": 1,
+   "import": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fleet Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Insurance Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Insurance Manager",
    "share": 1,
    "write": 1
   }
