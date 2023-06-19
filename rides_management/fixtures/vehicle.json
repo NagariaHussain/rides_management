@@ -1,0 +1,32 @@
+[
+ {
+  "date_of_insurance_expiry": "2023-06-30",
+  "docstatus": 0,
+  "doctype": "Vehicle",
+  "insurance_document": "/private/files/build-001-c.png",
+  "is_published": 1,
+  "make": "Mercedes-Benz",
+  "model": "GLA",
+  "modified": "2023-06-17 15:06:37.626659",
+  "name": "a1ed95a713",
+  "route": "vehicles/gla-2022",
+  "status": "Available",
+  "vehicle_image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/GLA/7269/1621948227508/front-left-side-47.jpg?tr=w-375",
+  "year": 2022
+ },
+ {
+  "date_of_insurance_expiry": "2024-08-15",
+  "docstatus": 0,
+  "doctype": "Vehicle",
+  "insurance_document": null,
+  "is_published": 1,
+  "make": "BMW",
+  "model": "M6",
+  "modified": "2023-06-17 15:04:44.979916",
+  "name": "1ca26992f4",
+  "route": "vehicles/bmw-m6",
+  "status": "Available",
+  "vehicle_image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230106025629_P90486165_highRes_the_new_bmw_760i_xdr.jpg&w=726&h=482&q=75&c=1",
+  "year": 2019
+ }
+]

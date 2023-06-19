@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-06-17 16:56:17.207753",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"columns\":[{\"label\":\"name\",\"fieldname\":\"name\",\"id\":\"name\",\"name\":\"name\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"creation\",\"fieldname\":\"creation\",\"id\":\"creation\",\"name\":\"creation\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"modified\",\"fieldname\":\"modified\",\"id\":\"modified\",\"name\":\"modified\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"modified_by\",\"fieldname\":\"modified_by\",\"id\":\"modified_by\",\"name\":\"modified_by\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"owner\",\"fieldname\":\"owner\",\"id\":\"owner\",\"name\":\"owner\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"docstatus\",\"fieldname\":\"docstatus\",\"id\":\"docstatus\",\"name\":\"docstatus\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"idx\",\"fieldname\":\"idx\",\"id\":\"idx\",\"name\":\"idx\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"make\",\"fieldname\":\"make\",\"id\":\"make\",\"name\":\"make\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"model\",\"fieldname\":\"model\",\"id\":\"model\",\"name\":\"model\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"year\",\"fieldname\":\"year\",\"id\":\"year\",\"name\":\"year\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"insurance_document\",\"fieldname\":\"insurance_document\",\"id\":\"insurance_document\",\"name\":\"insurance_document\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"date_of_insurance_expiry\",\"fieldname\":\"date_of_insurance_expiry\",\"id\":\"date_of_insurance_expiry\",\"name\":\"date_of_insurance_expiry\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"_user_tags\",\"fieldname\":\"_user_tags\",\"id\":\"_user_tags\",\"name\":\"_user_tags\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"_comments\",\"fieldname\":\"_comments\",\"id\":\"_comments\",\"name\":\"_comments\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"_assign\",\"fieldname\":\"_assign\",\"id\":\"_assign\",\"name\":\"_assign\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"_liked_by\",\"fieldname\":\"_liked_by\",\"id\":\"_liked_by\",\"name\":\"_liked_by\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"status\",\"fieldname\":\"status\",\"id\":\"status\",\"name\":\"status\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"is_published\",\"fieldname\":\"is_published\",\"id\":\"is_published\",\"name\":\"is_published\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"route\",\"fieldname\":\"route\",\"id\":\"route\",\"name\":\"route\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"vehicle_image\",\"fieldname\":\"vehicle_image\",\"id\":\"vehicle_image\",\"name\":\"vehicle_image\",\"width\":null,\"editable\":false,\"compareValue\":null}],\"filters\":{}}",
+ "modified": "2023-06-17 16:56:26.380373",
+ "modified_by": "Administrator",
+ "module": "Rides Management",
+ "name": "Vehicles with Chart",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Vehicle",
+ "reference_report": "Vehicles by Make Query",
+ "report_name": "Vehicles with Chart",
+ "report_type": "Custom Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

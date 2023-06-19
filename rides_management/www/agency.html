@@ -1,0 +1,15 @@
+{%  extends "templates/web.html" %}
+
+{% block page_content %}
+<div>
+    <h2>Agency</h2>
+
+    {% for vehicle in vehicles %}
+        <article>
+            <img src="{{ vehicle.vehicle_image }}">
+            {{ vehicle.make }} {{ vehicle.model }}
+        </article>
+    {% endfor %}
+</div>
+{% endblock %}
+
